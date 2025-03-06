@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "ESNext"
+    ],
+    "allowJs": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "noImplicitAny": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "module": "NodeNext",
+    "noEmitOnError": true,
+    "target": "ESNext",
+    "outDir": "build"
+  },
+  "exclude": [
+    "tmp",
+    "dist",
+    "node_modules",
+    "build",
+  ]
+}
